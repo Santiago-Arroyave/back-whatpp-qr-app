@@ -1,7 +1,7 @@
 package com.restaurante.bot.controller;
 
 import com.restaurante.bot.model.WaiterCall;
-import com.restaurante.bot.service.WaiterCallService;
+import com.restaurante.bot.business.service.WaiterCallService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

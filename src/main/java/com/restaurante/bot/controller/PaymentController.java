@@ -1,7 +1,7 @@
 package com.restaurante.bot.controller;
 
 import com.restaurante.bot.model.Payment;
-import com.restaurante.bot.service.PaymentService;
+import com.restaurante.bot.business.service.PaymentService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

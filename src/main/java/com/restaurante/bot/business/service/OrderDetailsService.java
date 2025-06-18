@@ -1,4 +1,4 @@
-package com.restaurante.bot.service;
+package com.restaurante.bot.business.service;
 
 import com.restaurante.bot.dto.OrderDetailsDTO;
 import org.springframework.beans.factory.annotation.Autowired;

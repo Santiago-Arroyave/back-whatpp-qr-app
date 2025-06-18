@@ -1,7 +1,7 @@
 package com.restaurante.bot.controller;
 
 import com.restaurante.bot.model.Product;
-import com.restaurante.bot.service.ProductService;
+import com.restaurante.bot.business.service.ProductService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
