@@ -1,10 +1,16 @@
 package com.restaurante.bot.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
 @Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "product")
 public class Product {
 
@@ -25,43 +31,4 @@ public class Product {
     @Column(name = "category")
     private String category;
 
-    public Product() {}
-
-    public Product(Integer productId, String name, BigDecimal price, String description, String category) {
-        this.productId = productId;
-        this.name = name;
-        this.price = price;
-        this.description = description;
-        this.category = category;
-    }
-    public Integer getProductId() {
-        return productId;
-    }
-    public void setProductId(Integer productId) {
-        this.productId = productId;
-    }
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public BigDecimal getPrice() {
-        return price;
-    }
-    public void setPrice(BigDecimal price) {
-        this.price = price;
-    }
-    public String getDescription() {
-        return description;
-    }
-    public void setDescription(String description) {
-        this.description = description;
-    }
-    public String getCategory() {
-        return category;
-    }
-    public void setCategory(String category) {
-        this.category = category;
-    }
 }
